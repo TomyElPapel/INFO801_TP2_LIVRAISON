@@ -1,0 +1,50 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    depends_on:
+      - mysql
+    environment:
+      - PMA_HOST=mysql
+      - PMA_PORT=3306
+    ports:
+      - "8082:80"
+      
+  maitre-oeuvre:
+    image: maitre-oeuvre
+    build: ./maitre-oeuvre
+    container_name: maitre-oeuvre-1
+    environment:
+      - PORT=8080
+    ports:
+      - "8080:8080"
+
+  fabricant-1:
+    image: fabricant
+    build: ./fabricant
+    container_name: fabricant-1
+    environment:
+      - PORT=8081
+    ports:
+      - "8081:8081"
+  
+  # client-1:
+  #   image: client
+  #   build: ./client
+  #   container_name: client-1
+  #   ports:
+  #     - "8082:8082"
+  #   networks:
+  #     - reseau-1

@@ -5,17 +5,24 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: mydatabase
       MYSQL_USER: myuser
       MYSQL_PASSWORD: mypassword
     ports:
       - "3306:3306"
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "--silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
     environment:
       - PMA_HOST=mysql
       - PMA_PORT=3306
@@ -26,8 +33,16 @@ services:
     image: maitre-oeuvre
     build: ./maitre-oeuvre
     container_name: maitre-oeuvre-1
+    depends_on:
+      mysql:
+        condition: service_healthy
     environment:
       - PORT=8080
+      - DATABASE_NAME=maitre-1
+      - DATABASE_USER=root
+      - DATABASE_PASSWORD=rootpassword
+      - DATABASE_HOST=mysql
+      - DATABASE_PORT=3306
     ports:
       - "8080:8080"
 
@@ -35,8 +50,15 @@ services:
     image: fabricant
     build: ./fabricant
     container_name: fabricant-1
+    depends_on:
+      - mysql
     environment:
       - PORT=8081
+      - DATABASE_NAME=fabricant-1
+      - DATABASE_USER=myuser
+      - DATABASE_PASSWORD=mypassword
+      - DATABASE_HOST=mysql
+      - DATABASE_PORT=3306
     ports:
       - "8081:8081"
   

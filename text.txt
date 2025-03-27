@@ -1,0 +1,116 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 localhost:35475         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 localhost:1883          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:mysql           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:3307            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:http-alt        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:8082            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN      -                   
+tcp6       0      0 ip6-localhost:1883      [::]:*                  LISTEN      -                   
+tcp6       0      0 [::]:mysql              [::]:*                  LISTEN      -                   
+tcp6       0      0 [::]:3307               [::]:*                  LISTEN      -                   
+tcp6       0      0 [::]:http-alt           [::]:*                  LISTEN      -                   
+tcp6       0      0 [::]:8082               [::]:*                  LISTEN      -                   
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:50821           0.0.0.0:*                           -                   
+udp        0      0 localhost:domain        0.0.0.0:*                           -                   
+udp6       0      0 [::]:mdns               [::]:*                              -                   
+udp6       0      0 [::]:32811              [::]:*                              -                   
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7           -                   
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     STREAM     LISTENING     707087   -                    /home/fajitasmaster974/.docker/desktop/ethernet-fd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707088   -                    /home/fajitasmaster974/.docker/desktop/volume-contents.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707089   -                    /home/fajitasmaster974/.docker/desktop/lifecycle-server.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707090   -                    /home/fajitasmaster974/.docker/desktop/stats.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707091   -                    /home/fajitasmaster974/.docker/desktop/docker.raw.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707092   -                    /home/fajitasmaster974/.docker/desktop/diagnosticd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     710299   -                    /run/containerd/s/e81467ede273e8d8daa9c5a39dbbc64863f2f762b0bf972f9e5b2df4b47be58b
+unix  2      [ ACC ]     STREAM     LISTENING     704224   125647/com.docker.b  /home/fajitasmaster974/.docker/desktop/docker-desktop-build.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17771    2319/systemd         /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     16180    2319/systemd         /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     16182    2319/systemd         /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     16184    2319/systemd         /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     16186    2319/systemd         /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     16188    2319/systemd         /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     16190    2319/systemd         /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     16192    2319/systemd         /run/user/1000/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     16194    2319/systemd         /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     16196    2319/systemd         /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     16198    2319/systemd         /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     12687    -                    /run/irqbalance/irqbalance792.sock
+unix  2      [ ACC ]     STREAM     LISTENING     16200    2319/systemd         /run/user/1000/speech-dispatcher/speechd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     68130    -                    /run/containerd/s/c3ba9826e714c1a77a96b7e57f6eb11fa0ab4565fd9224a993b11dfc361a96cb
+unix  2      [ ACC ]     STREAM     LISTENING     14228    2402/gnome-keyring-  /run/user/1000/keyring/control
+unix  2      [ ACC ]     STREAM     LISTENING     18440    -                    /var/run/docker/metrics.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21519    2557/gnome-session-  /tmp/.ICE-unix/2557
+unix  2      [ ACC ]     STREAM     LISTENING     21589    5175/Xwayland        /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     21591    2586/gnome-shell     /tmp/.X11-unix/X1
+unix  2      [ ACC ]     STREAM     LISTENING     16328    2402/gnome-keyring-  /run/user/1000/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     612989   112336/code --no-sa  /run/user/1000/vscode-9d11a328-1.97-main.sock
+unix  2      [ ACC ]     STREAM     LISTENING     614299   112743/Code --stand  /run/user/1000/vscode-git-787a93203e.sock
+unix  2      [ ACC ]     STREAM     LISTENING     15355    2402/gnome-keyring-  /run/user/1000/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     707115   -                    /home/fajitasmaster974/.docker/desktop/filesystem-volume.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17015    -                    /var/run/docker/libnetwork/43d97d087929.sock
+unix  2      [ ACC ]     STREAM     LISTENING     23559    2587/dbus-daemon     /run/user/1000/at-spi/bus
+unix  2      [ ACC ]     STREAM     LISTENING     8626     -                    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     719478   -                    /run/containerd/s/78ebc7ad7e03a36e1b9baa150e95fd4a1af93ee8e90b16fcfef08334b6527142
+unix  2      [ ACC ]     STREAM     LISTENING     8628     -                    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     8629     -                    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     STREAM     LISTENING     733835   130352/firefox       /run/user/1000/snap.firefox/wayland-proxy-130352
+unix  2      [ ACC ]     STREAM     LISTENING     8639     -                    /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     21592    2586/gnome-shell     /run/user/1000/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     8650     -                    /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     8652     -                    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     717263   -                    /run/containerd/s/4ed6e6a9bff414bdde0cb8b2b02cb496e2cfb74b7006250e08c7afd979cb9832
+unix  2      [ ACC ]     STREAM     LISTENING     10263    -                    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     13337    -                    /run/systemd/resolve/io.systemd.Resolve
+unix  2      [ ACC ]     STREAM     LISTENING     16049    -                    /var/run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11885    -                    /run/containerd/containerd.sock.ttrpc
+unix  2      [ ACC ]     STREAM     LISTENING     14004    -                    /run/snap.docker/containerd/containerd-debug.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11887    -                    /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     14005    -                    /run/snap.docker/containerd/containerd.sock.ttrpc
+unix  2      [ ACC ]     STREAM     LISTENING     14006    -                    /run/snap.docker/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     19658    -                    /run/snap.docker/metrics.sock
+unix  2      [ ACC ]     STREAM     LISTENING     18724    -                    /run/snap.docker/libnetwork/70e49acf7350.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707079   -                    /home/fajitasmaster974/.docker/desktop/backend.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707080   -                    /home/fajitasmaster974/.docker/desktop/ethernet-vpnkit.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707081   -                    /home/fajitasmaster974/.docker/desktop/vpnkit-bridge-fd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707093   -                    /home/fajitasmaster974/.docker/desktop/dns-forwarder.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707094   -                    /home/fajitasmaster974/.docker/desktop/filesystem-event.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707095   -                    /home/fajitasmaster974/.docker/desktop/docker-api-proxy-control.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707083   -                    /home/fajitasmaster974/.docker/desktop/control-init.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707096   -                    /home/fajitasmaster974/.docker/desktop/container-filesystem.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707097   -                    /home/fajitasmaster974/.docker/desktop/image-inspector.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707084   -                    /home/fajitasmaster974/.docker/desktop/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707098   -                    /home/fajitasmaster974/.docker/desktop/devenv-volumes.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707085   -                    /home/fajitasmaster974/.docker/desktop/docker-cli.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707099   -                    /home/fajitasmaster974/.docker/desktop/debug-socketforwarder.sock
+unix  2      [ ACC ]     STREAM     LISTENING     708995   -                    /home/fajitasmaster974/.docker/desktop/perf-socketforwarder.sock
+unix  2      [ ACC ]     STREAM     LISTENING     708996   -                    /home/fajitasmaster974/.docker/desktop/mutagen-conduit.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11694    -                    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     708997   -                    /home/fajitasmaster974/.docker/desktop/extension-manager.sock
+unix  2      [ ACC ]     STREAM     LISTENING     707191   125661/Docker Deskt  /tmp/scoped_dir8wjw1x/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     709870   -                    /home/fajitasmaster974/.docker/desktop/console.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11696    -                    /run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     708998   -                    /home/fajitasmaster974/.docker/desktop/webgpu.sock
+unix  2      [ ACC ]     STREAM     LISTENING     708999   -                    /home/fajitasmaster974/.docker/desktop/modules-manager.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11698    -                    /run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     710714   -                    /home/fajitasmaster974/.docker/mutagen/daemon/daemon.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11700    -                    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     11702    -                    /run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11704    -                    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     11706    -                    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     709020   125633/com.docker.d  /home/fajitasmaster974/.docker/desktop/docker-dev-env-api.sock
+unix  2      [ ACC ]     STREAM     LISTENING     708092   -                    /home/fajitasmaster974/.docker/desktop/user-analytics.otlp.grpc.sock
+unix  2      [ ACC ]     STREAM     LISTENING     15374    -                    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     707086   -                    /home/fajitasmaster974/.docker/desktop/httpproxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21518    2557/gnome-session-  @/tmp/.ICE-unix/2557
+unix  2      [ ACC ]     STREAM     LISTENING     21588    5175/Xwayland        @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     21590    5175/Xwayland        @/tmp/.X11-unix/X1
+unix  2      [ ACC ]     STREAM     LISTENING     7891     -                    @/tmp/dbus-khLtOXg3
+unix  2      [ ACC ]     STREAM     LISTENING     7892     -                    @/tmp/dbus-TOwj0lm3
+unix  2      [ ACC ]     STREAM     LISTENING     18003    2733/ibus-daemon     @/home/fajitasmaster974/.cache/ibus/dbus-f0n3KI1w
